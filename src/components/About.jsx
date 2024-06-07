@@ -11,7 +11,7 @@ const About = () => {
                 <div className=" flex justify-between items-center">
                     <div className="w-[38%]">
                         <div className=" text-end">
-                            <h2 className=' font-upright font-bold text-[#DCCA87] text-[64px]'>About Us</h2>
+                            <h2 className=' font-upright font-bold text-[#DCCA87] lg:text-[64px] text-[40px]'>About Us</h2>
                             <p className=' font-upright font-medium text-[16px] text-[#AAAAAA]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Quis pharetra adipiscing ultrices vulputate posuere tristique.
                                 In sed odio nec aliquet eu proin mauris et.</p>
@@ -30,7 +30,7 @@ const About = () => {
                     </div>
                     <div className="w-[38%]">
                         <div className=" ">
-                            <h2 className=' font-upright font-bold text-[#DCCA87] text-[64px]'>Our History</h2>
+                            <h2 className=' font-upright font-bold text-[#DCCA87] lg:text-[64px] text-[40px]'>Our History</h2>
                             <p className=' font-upright font-medium text-[16px] text-[#AAAAAA]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Quis pharetra adipiscing ultrices vulputate posuere tristique.
                                 In sed odio nec aliquet eu proin mauris et.</p>
