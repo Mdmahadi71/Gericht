@@ -12,8 +12,8 @@ const Testimony = () => {
                 <p className=' font-upright font-bold text-[#FFFFFF] text-[23px]'>Testimony</p>
                 <h2 className=' font-upright font-semibold text-[#DCCA87] text-[64px]'>Happy customers</h2>
             </div>
-            <div className=" flex justify-between">
-                <div className=" w-[48%]">
+            <div className=" lg:flex justify-between">
+                <div className=" lg:w-[48%] lg:my-0 my-[20px]">
                     <div className="flex justify-between gap-x-2">
                         <div className="">
                             <img src={testmonyee} alt="" />
@@ -26,7 +26,7 @@ const Testimony = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" w-[48%]">
+                <div className=" lg:w-[48%] lg:my-0 my-[20px]">
                     <div className="flex justify-between gap-x-2">
                         <div className="">
                             <img src={testmonyee} alt="" />
@@ -40,8 +40,8 @@ const Testimony = () => {
                     </div>
                 </div>
             </div>
-            <div className=" flex justify-between py-[30px]">
-                <div className=" w-[48%]">
+            <div className=" lg:flex justify-between py-[30px]">
+                <div className=" lg:w-[48%] lg:my-0 my-[20px]">
                     <div className="flex justify-between gap-x-2">
                         <div className="">
                             <img src={testmonyee} alt="" />
@@ -54,7 +54,7 @@ const Testimony = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" w-[48%]">
+                <div className=" lg:w-[48%] lg:my-0 my-[20px]">
                     <div className=" flex justify-between gap-x-2" >
                         <div className="">
                             <img src={testmonyee} alt="" />

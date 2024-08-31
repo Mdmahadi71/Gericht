@@ -11,8 +11,8 @@ const Special = () => {
                 <h4 className=' font-upright font-bold text-[23px] text-[#FFFFFF]'>Menu that fits you palatte</h4>
                 <h2 className=' font-upright font-bold text-[64px] text-[#DCCA87]'>Today’s Special</h2>
             </div>
-            <div className=" flex justify-between items-center">
-                <div className="w-[33%]">
+            <div className=" lg:flex justify-between items-center">
+                <div className="lg:w-[33%]">
                     <div className="text-center">
                         <h2 className=' font-upright font-semibold text-[45px] text-[#FFFFFF]'>Wine & Beer</h2>
                     </div>
@@ -97,12 +97,12 @@ const Special = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-[33%]">
+                <div className="lg:w-[33%]">
                     <div className=" items-center">
                         <img src={spaImg} className=' h-[400px] pl-[70px]' alt="" />
                     </div>
                 </div>
-                <div className="w-[33%]">
+                <div className="lg:w-[33%]">
                     <div className="text-center">
                         <h2 className=' font-upright font-semibold text-[45px] text-[#FFFFFF]'>Wine & Beer</h2>
                     </div>
