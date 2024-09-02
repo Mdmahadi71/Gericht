@@ -3,7 +3,7 @@ import Container from './Container'
 import manuImg from '../assets/menu.png'
 import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
-
+import { Link} from 'react-router-dom'
 
 const Manu = () => {
     let [show , setShow] = useState(false)
@@ -22,8 +22,8 @@ const Manu = () => {
                   : ' top-[70px] left-[-200px] '}`}>
                       <div className="lg:flex justify-between  ">
                           <ul className='lg:flex justify-between gap-x-[32px] '>
-                              <li className=' font-open font-normal text-[16px] text-[#ffff]'>Home</li>
-                              <li className=' font-open font-normal text-[16px] text-[#ffff]'>Pages</li>
+                              <li className=' font-open font-normal text-[16px] text-[#ffff]'><Link to={'/'}>Home</Link> </li>
+                              <li className=' font-open font-normal text-[16px] text-[#ffff]'><Link to={'/barrs'}>Pages</Link></li>
                               <li className=' font-open font-normal text-[16px] text-[#ffff]'>Contact Us</li>
                               <li className=' font-open font-normal text-[16px] text-[#ffff]'>Blog</li>
                               <li className=' font-open font-normal text-[16px] text-[#ffff]'>Landing</li>
