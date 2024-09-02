@@ -8,7 +8,8 @@ const What = () => {
     <div className=' bg-[#040404] py-[100px]'>
       <Container>
         <div className=" flex justify-between items-center">
-            <div className=" w-[48%]">
+            <div className=" w-[48%] relative after:absolute after:content-['']
+             after:top-0 after:right-0 after:w-[50%] after:h-[15px] after:bg-white after:bottom-0 ">
                 <img src={whatsImg } className='' alt="" />
             </div>
             <div className="w-[48%]">

@@ -1,31 +1,23 @@
 import './App.css'
-import About from './components/About'
-import Banner from './components/Banner'
-import Blogs from './components/Blogs'
-import Books from './components/Books'
-import Footer from './components/Footer'
-import Laurels from './components/Laurels'
-import Manu from './components/Manu'
-import Newsletter from './components/Newsletter'
-import Special from './components/Special'
-import Testimony from './components/Testimony'
-import What from './components/What'
+import {createBrowserRouter,createRoutesFromElements ,RouterProvider,Route} from 'react-router-dom'
+import Layout from './components/Layout'
+import Home from './Pages/Home'
+import BarrsPage from './Pages/BarrsPage'
 
 function App() {
+  const router = createBrowserRouter(createRoutesFromElements(
+   <Route element={<Layout/>} >
+      <Route path='/' element={<Home/>}></Route>
+      <Route path='/barrs' element={<BarrsPage/>}></Route>
+   </Route>
+  ))
+  
 
   return (
     <>
-     <Manu/>
-     <Banner/>
-     <About/>
-     <Books/>
-     <Special/>
-     <What/>
-     <Testimony/>
-     <Laurels/>
-     <Blogs/>
-     <Newsletter/>
-     <Footer/>
+    <RouterProvider router={router}>
+
+    </RouterProvider>
     </>
   )
 }
